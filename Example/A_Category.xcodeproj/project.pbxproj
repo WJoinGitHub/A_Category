@@ -303,10 +303,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-A_Category_Example/Pods-A_Category_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/A_Category/A_Category.framework",
+				"${BUILT_PRODUCTS_DIR}/CTMediator/CTMediator.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/A_Category.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CTMediator.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
